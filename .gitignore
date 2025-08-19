@@ -1,0 +1,12 @@
+# Visual Studio
+.vs/
+
+# Unreal Engine generated folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Others
+*.log
+*.sln.docstates
