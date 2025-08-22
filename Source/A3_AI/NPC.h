@@ -11,8 +11,11 @@ UCLASS()
 class A3_AI_API ANPC : public ACharacter
 {
 	GENERATED_BODY()
-
 public:
+
+	UFUNCTION(BlueprintImplementableEvent, Category = "NPC")
+	void OnNPCInitialized();
+
 	// Sets default values for this character's properties
 	ANPC();
 
